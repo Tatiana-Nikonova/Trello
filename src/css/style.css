@@ -1,0 +1,144 @@
+.container {
+    left: 10px;
+    top: 10px;
+    min-width: 300px;
+    min-height: 30%;
+    width: 60%;
+    height: 800px;
+    border: 1px solid blue;
+    background-color: deepskyblue;
+}
+
+.main {
+    position: relative;
+    padding: 0;
+    margin: 0 4px 0 0;
+    float: left;
+    width: calc((100% / 3) - 8px);
+    height: 98%;
+    border: 2px solid blue;
+    background-color: honeydew;
+}
+
+.trello {
+    position: absolute;
+    margin-top: 10%;
+    width: 100%;
+    height: calc(93% - 30px);
+    border: none;
+    background-color: honeydew;
+    overflow-y: auto;
+}
+
+.add-tasks-control {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: honeydew;
+}
+
+.add-tasks-input {
+    border: solid 1px black;
+    background-color: white;
+    margin: 1px;
+    padding: 0;
+    width: 99%;
+    resize: none;
+    font-size: 16px;
+}
+
+.add-tasks-submit {
+    float: left;
+    margin-left: 15px;
+    background-color: blue;
+    color: white;
+}
+
+.add-tasks-submit:hover {
+    cursor: pointer;
+}
+
+.add-tasks-cancel {
+    margin-right: 15px;
+    float: right;
+    color: red;
+}
+
+.add-tasks-cancel:hover {
+    cursor: pointer;
+}
+
+.board {
+    width: 98%;
+    height: 100%;
+    border: 1px solid blue;
+    background-color: whitesmoke;
+}
+
+.text {
+    position: relative;
+    display: flex;
+    margin: 2px;
+    padding: 2px;
+    width: 97%;
+    height: 55px;
+    font-size: 20px;
+    border: solid 1px;
+    background-color: white;
+    resize: none;
+}
+
+.grab {
+    cursor: grabbing;
+}
+
+.close {
+    position:absolute;
+    top:0;
+    right:0;
+    width: 5px;
+    height: 5px;
+    background-color: red;
+}
+
+.add-card {
+    position: absolute;
+    bottom: 0;
+    left: 23%;
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+    border: none;
+    background-color: honeydew;
+}
+.title {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    background-color: honeydew;
+}
+
+.hidden {
+    display: none;
+}
+
+.another {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    right: 0px;
+    top:0;
+    border:none;
+    cursor: pointer;
+    color: red;
+}
+
+.top-change {
+    margin-top: 59px;
+}
